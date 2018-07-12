@@ -38,7 +38,7 @@ end
 
 DatabaseCleaner.strategy = :truncation
 
-Rspec.configure do |c|
+RSpec.configure do |c|
   c.include Capybara::DSL
   c.before :each do
     DatabaseCleaner.clean
