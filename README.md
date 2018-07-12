@@ -86,11 +86,11 @@ And I see the description, street, city, state, and zip on that page
 
 #### Student has Many Addresses
 
-```
+<!-- ```
 As a user
 When I visit `/students/:id`
 I see all addresses associated with that student (e.g. if that student has two addresses, I see both)
-```
+``` -->
 
 ### Courses (Many-to-Many)
 
