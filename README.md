@@ -52,7 +52,7 @@ And that student's name is no longer on the page
 
 #### Navigation
 
-```
+<!-- ```
 As a user
 When I visit any page
 I see links to see a list of all students, or create a new student
@@ -63,14 +63,14 @@ As a user
 When I visit `/students`
 And I click on a student's name
 I am taken to a show page for that student
-```
+``` -->
 
 ### Addresses (One-to-Many)
 
 Let's add addresses to this application. In this particular scenario assume that a student can have many addresses (i.e. maybe they have a current address, a permanent address, a parent address, a summer address, etc.), and that an address belongs to *only* one student. This might not be a real-life situation (what about brothers and sisters at the same school?), but go with it. For today, this will be a one-to-many relationship.
 
 #### Creating a New Address
-
+<!-- 
 ```
 As a user
 When I visit `/students/:id/addresses/new`
@@ -82,15 +82,15 @@ And I fill in zip code with a zip code
 And I click submit
 I am taken to that student's show page
 And I see the description, street, city, state, and zip on that page
-```
+``` -->
 
 #### Student has Many Addresses
 
-```
+<!-- ```
 As a user
 When I visit `/students/:id`
 I see all addresses associated with that student (e.g. if that student has two addresses, I see both)
-```
+``` -->
 
 ### Courses (Many-to-Many)
 
